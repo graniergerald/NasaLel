@@ -1,0 +1,238 @@
+/* div body général*/
+
+@font-face 
+{
+	font-family: 'metroregular';
+    src: url('../fonts/Metro-fontfacekit/web fonts/Metro-webfont.eot');
+    src: url('../fonts/Metro-fontfacekit/web fonts/Metro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Metro-fontfacekit/web fonts/Metro-webfont.woff2') format('woff2'),
+         url('../fonts/Metro-fontfacekit/web fonts/Metro-webfont.woff') format('woff'),
+         url('../fonts/Metro-fontfacekit/web fonts/Metro-webfont.ttf') format('truetype'),
+         url('../fonts/Metro-fontfacekit/web fonts/Metro-webfont.svg#metroregular') format('svg');
+}
+
+@font-face
+
+{
+	font-family: 'BNKGOTHM';
+	src: url('../fonts/BNKGOTHM/BNKGOTHM.ttf') format('truetype');
+}
+
+
+body
+{
+	font-family: 'BNKGOTHM', serif;
+	background-image: url(../img/overlaylay.png);
+	background-size: cover;
+}
+
+div 
+{
+    display: block;
+}
+
+
+
+
+/*TOUT LE HEADER*/
+
+.header a:hover /* a amélioré, pour faire un truc très classe*/
+{
+	background-color: black;
+}
+
+
+
+.header
+{	
+	background-image: url(../img/NavVoieLactée.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: -1%;
+	height: 40em;
+	color: white;
+	text-align: center;
+}
+
+
+.header nav
+{	
+	padding: 2em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.header ul
+{
+ 	display: flex;
+ 	border: 3px solid white;
+ 	height: 1.5em;
+ 	padding: 2.5%;
+ 	list-style-type: none;
+ 	background-color: rgba(150, 150, 150, 0.3);
+ 	justify-content: center;
+ 	justify-content: space-around;
+}
+
+.header li a
+{	
+	color: white;
+}
+
+
+.header h1
+{
+	font-size: 5.5em;
+	margin: 5%;
+}
+
+
+/*  SECTION article */
+
+section
+{
+	font-family: Arial;
+	font-weight: bold;
+	margin: 6em 18% 6em 18%;
+}
+
+
+
+/* Page mission */
+.CITATION h2
+{
+	font-family: 'metroregular';
+	text-align: center;
+	margin: 4em 25% 4em 25%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border: 3px solid black;
+	background-image: url(../img/MdpBinaireMonitor.jpg);
+	background-position: center;
+	background-color: rgba(200, 200, 200, 0.3);
+	background-repeat: no-repeat;
+	background-blend-mode: lighten;
+	background-image: linear
+
+}
+
+.ZONEDESAISIEmdp
+{
+	display: flex;
+	background-image: url(../img/BinaireCode.jpg) ;
+	background-position: center;
+	margin: -1%;
+	height: 20em;
+}
+
+.ZonedePassword
+{	
+	background-color: rgba(150, 150, 150, 0.6);
+	padding: 2em 2em 3em 2em;
+	text-align: center;
+	width: 30%;
+	margin: auto;	
+}
+
+.ZonedePassword label
+{
+	display: block;
+	margin: 10px;
+}
+
+
+
+
+/*TOUT LE FOOTER*/
+
+
+.footer
+{
+	height: 3em;
+	text-align: center;
+	margin: 7em 5em 9em 5em;
+}
+
+.footer div
+{
+	margin: 1em 1em 1em 1em;
+}
+
+
+.ReseauxSociaux a
+{
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+
+
+
+/* Page Gallerie */
+
+.ImagesVoyage
+{
+	margin: 4em 4em 4em 4em;
+	text-align: center;
+}
+
+
+/* Page contact */
+
+.IntroContact
+{
+	margin: 4em 4em 4em 4em;
+	text-align: center;
+}
+
+.NousContacter fieldset
+{
+	margin: 4em 0em 4em 0em;
+	text-align: center;
+	width: 30%;
+	margin:auto;
+}
+
+
+/* PageDuPasswordsecret */
+	/*Password trouver */
+.Mdptrouver
+{	
+	display: flex;
+	border-top: 7px solid white;
+	border-width: 101%;
+	padding-top: 3em;
+	margin: 0.5em -0.7em 4em -0.7em;
+	text-align: justify;
+	font-size: 2em;
+	justify-content: center;
+}
+
+.ArticleduMdptrouver
+{
+	width: 10em;
+	padding-right: 3em ; 
+	padding-left: 3em ;
+}
+
+	/*Password pas trouver */
+
+.Mdppastrouver
+{
+	display: flex;
+	border-top: 7px solid white;
+	border-width: 101%;
+	padding-top: 3em;
+	margin: 0.5em -0.7em 4em -0.7em;
+	text-align: justify;
+	font-size: 2em;
+	justify-content: center;	
+}
+
+.ArticleduMdppastrouver
+{
+	width: 10em;
+	padding-right: 3em ; 
+	padding-left: 3em ;
+}
